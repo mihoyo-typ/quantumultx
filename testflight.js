@@ -112,6 +112,11 @@ function getResult() {
         // $.msg("TestFilght监控","",hastr){
           //  "open-url": hastr
        // });
+
+      $.msg("TestFilght监控","",hastr){
+            "open-url": "https://www.baidu.com";
+        });
+
       }
       else {
         var nostr ='[' + name + ']' + '\n'+ logdata[name].context;
