@@ -114,7 +114,7 @@ function getResult() {
       //  });
 //const roll = "https://testflight.apple.com/join/gdE4pRzI";
 ///33
-        $notify("TestFilght",hastr, "点击跳转浏览器下载本地", {
+        $notify("TestFilght",logdata[name].context, "点击跳转浏览器下载本地", {
             "open-url": lol.url
         });
     
