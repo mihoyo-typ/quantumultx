@@ -108,10 +108,9 @@ function getResult() {
     for (var name in logdata) {
       if (logdata[name].has) {
         var hastr ='[' + name + ']' +'\n'+ logdata[name].context;
-         $.msg("TestFilght监控","",hastr){
-            "open-url": "https://www.baidu.com";
-        });
-      }
+         $.msg("TestFilght监控","",hastr);
+            
+      
       else {
         var nostr ='[' + name + ']' + '\n'+ logdata[name].context;
          if (isNOtify == "false") {
