@@ -114,8 +114,8 @@ function getResult() {
        // });
 //const roll = "https://testflight.apple.com/join/gdE4pRzI";
 
-        $notify("课程匹配成功", `已匹配到下载地址：${hastr}`, "点击跳转浏览器下载本地", {
-            "open-url": hastr
+        $notify("TestFilght", upstr + '👉:' +'\n'+ lol.url + '\n\n', "点击跳转浏览器下载本地", {
+            "open-url": lol.url
         });
     
 
