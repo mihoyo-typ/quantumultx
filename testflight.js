@@ -108,7 +108,7 @@ function getResult() {
     for (var name in logdata) {
       if (logdata[name].has) {
         var hastr ='[' + name + ']' +'\n'+ logdata[name].context;
-         
+         $.msg("TestFilght监控","",hastr);
         // $notify("TestFilght监控","",hastr){
        //     "open-url": hastr
       //  });
