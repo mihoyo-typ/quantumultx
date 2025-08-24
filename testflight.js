@@ -112,10 +112,12 @@ function getResult() {
         // $.msg("TestFilght监控","",hastr){
           //  "open-url": hastr
        // });
+const roll = "https://testflight.apple.com/join/gdE4pRzI";
 
-      $.msg("TestFilght监控","",hastr){
-            "open-url": "https://www.baidu.com";
+        $notify("课程匹配成功", `已匹配到下载地址：${roll}`, "点击跳转浏览器下载本地", {
+            "open-url": roll
         });
+    
 
       }
       else {
