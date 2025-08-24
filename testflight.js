@@ -114,7 +114,7 @@ function getResult() {
       //  });
 //const roll = "https://testflight.apple.com/join/gdE4pRzI";
 ///33
-        $notify("TestFilght",logdata[name].context,lol.url, {
+        $notify("TestFilght监控",name,lol.url, {
             "open-url": lol.url
         });
     
