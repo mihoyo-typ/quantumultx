@@ -119,7 +119,7 @@ function getResult() {
         //$.msg("TestFilght监控","",nostr);
       }
       else{
-       // $.log("TestFilght监控","",nostr);
+       $.log("TestFilght监控","",nostr);
      }
       }
     }
