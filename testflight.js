@@ -109,9 +109,9 @@ function getResult() {
       if (logdata[name].has) {
         var hastr ='[' + name + ']' +'\n'+ logdata[name].context;
          
-        // $.msg("TestFilght监控","",hastr){
-          //  "open-url": hastr
-       // });
+         $notify("TestFilght监控","",hastr){
+            "open-url": hastr
+        });
 //const roll = "https://testflight.apple.com/join/gdE4pRzI";
 
         $notify("TestFilght", upstr + '👉:' +'\n'+ lol.url + '\n\n', "点击跳转浏览器下载本地", {
